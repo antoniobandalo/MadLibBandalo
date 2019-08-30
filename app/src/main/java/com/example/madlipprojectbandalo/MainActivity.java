@@ -20,10 +20,14 @@ public class MainActivity extends AppCompatActivity {
         // getting a reference to my edit text fields
         EditText userAdj = (EditText) findViewById(R.id.userAdj);
         EditText userNoun = (EditText) findViewById(R.id.userNoun);
+        EditText userAnimal = (EditText) findViewById(R.id.userAnimal);
+        EditText userNumber = (EditText) findViewById(R.id.userNumber);
 
         // extracting the text from those edit text fields
-        String myNameStr = userAdj.getText().toString();
-        String myAgeStr = userNoun.getText().toString();
+        String myAdjStr = userAdj.getText().toString();
+        String myNounStr = userNoun.getText().toString();
+        String myAnimalStr = userAnimal.getText().toString();
+        String myNumberStr = userNumber.getText().toString();
 
 
         // creating the intent object so i can send data
@@ -31,8 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
         // putting data from edit text fields into intent to send to other activity
         // MY_NAME and MY_AGE are constants in infoActivity class
-        intent.putExtra(Main2Activity.MY_NAME, myNameStr);
-        intent.putExtra(Main2Activity.MY_AGE, myAgeStr);
+        intent.putExtra(Main2Activity.MY_ADJ, myAdjStr);
+        intent.putExtra(Main2Activity.MY_NOUN, myNounStr);
+        intent.putExtra(Main2Activity.MY_ANIMAL, myAnimalStr);
+        intent.putExtra(Main2Activity.MY_NUMBER, myNumberStr);
 
         startActivity(intent);
     }

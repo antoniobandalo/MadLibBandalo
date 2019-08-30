@@ -59,7 +59,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="21dp" />
+        android:layout_height="23dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -77,7 +77,7 @@
         <EditText
             android:id="@+id/userAnimal"
             android:layout_width="253dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:ems="10"
             android:hint="Ex: Cat"
             android:inputType="textPersonName" />
@@ -118,6 +118,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:onClick="sendInfo"
         android:text="Submit" />
 
 </LinearLayout>
