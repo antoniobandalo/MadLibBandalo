@@ -11,9 +11,11 @@
         android:id="@+id/info"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="265dp"
         android:text="TextView"
         app:layout_constrainedHeight="false"
         app:layout_constrainedWidth="false"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="265dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

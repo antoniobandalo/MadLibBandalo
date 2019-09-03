@@ -14,11 +14,12 @@
 
         <TextView
             android:id="@+id/adjective"
-            android:layout_width="match_parent"
+            android:layout_width="155dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="Adjective:"
-            android:textSize="36sp" />
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userAdj"
@@ -40,12 +41,13 @@
 
         <TextView
             android:id="@+id/noun"
-            android:layout_width="157dp"
-            android:layout_height="wrap_content"
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="Noun:"
-            android:textSize="36sp" />
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userNoun"
@@ -59,20 +61,21 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="23dp" />
+        android:layout_height="21dp" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/animal"
             android:layout_width="164dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="Animal:"
-            android:textSize="36sp" />
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userAnimal"
@@ -85,7 +88,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="24dp" />
+        android:layout_height="26dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -97,8 +100,9 @@
             android:layout_width="166dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="Number:"
-            android:textSize="36sp" />
+            android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userNumber"
