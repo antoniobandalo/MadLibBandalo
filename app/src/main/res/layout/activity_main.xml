@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D5D5D5"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -32,7 +33,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="21dp" />
+        android:layout_height="45dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -61,7 +62,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="21dp" />
+        android:layout_height="41dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,7 +89,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="26dp" />
+        android:layout_height="49dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -115,14 +116,17 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="35dp" />
+        android:layout_height="58dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="#9099A2"
         android:onClick="sendInfo"
-        android:text="Submit" />
+        android:text="Submit"
+        android:textColor="#96858F"
+        android:textIsSelectable="false" />
 
 </LinearLayout>
