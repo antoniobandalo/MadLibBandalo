@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5D5D5"
+    android:background="#A4A4BF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,25 +15,27 @@
 
         <TextView
             android:id="@+id/adjective"
-            android:layout_width="155dp"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/parameterWidth"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="cursive"
             android:gravity="center"
             android:text="Adjective:"
             android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userAdj"
-            android:layout_width="253dp"
+            android:layout_width="@dimen/textBoxWidth"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="casual"
             android:hint="Ex: Happy"
             android:inputType="textPersonName" />
     </LinearLayout>
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="45dp" />
+        android:layout_height="@dimen/spaceHeight" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -42,19 +44,21 @@
 
         <TextView
             android:id="@+id/noun"
-            android:layout_width="153dp"
+            android:layout_width="@dimen/parameterWidth"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:fontFamily="cursive"
             android:gravity="center"
             android:text="Noun:"
             android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userNoun"
-            android:layout_width="255dp"
+            android:layout_width="@dimen/textBoxWidth"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="casual"
             android:hint="Ex: Clock"
             android:inputType="textPersonName" />
 
@@ -62,7 +66,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="41dp" />
+        android:layout_height="@dimen/spaceHeight" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -71,25 +75,27 @@
 
         <TextView
             android:id="@+id/animal"
-            android:layout_width="164dp"
+            android:layout_width="@dimen/parameterWidth"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="cursive"
             android:gravity="center"
             android:text="Animal:"
             android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userAnimal"
-            android:layout_width="253dp"
+            android:layout_width="@dimen/textBoxWidth"
             android:layout_height="match_parent"
             android:ems="10"
+            android:fontFamily="casual"
             android:hint="Ex: Cat"
             android:inputType="textPersonName" />
     </LinearLayout>
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="49dp" />
+        android:layout_height="@dimen/spaceHeight" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -98,35 +104,37 @@
 
         <TextView
             android:id="@+id/number"
-            android:layout_width="166dp"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/parameterWidth"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:fontFamily="cursive"
             android:gravity="center"
             android:text="Number:"
             android:textSize="24sp" />
 
         <EditText
             android:id="@+id/userNumber"
-            android:layout_width="253dp"
+            android:layout_width="@dimen/textBoxWidth"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:fontFamily="casual"
             android:hint="Ex: 25"
             android:inputType="textPersonName" />
     </LinearLayout>
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="58dp" />
+        android:layout_height="@dimen/spaceHeight" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#9099A2"
+        android:background="#16235A"
         android:onClick="sendInfo"
         android:text="Submit"
-        android:textColor="#96858F"
+        android:textColor="#F2EAED"
         android:textIsSelectable="false" />
 
 </LinearLayout>

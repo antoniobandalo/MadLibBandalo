@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
+    <dimen name="spaceHeight">45dp</dimen>
+    <dimen name="parameterWidth">160dp</dimen>
+    <dimen name="textBoxWidth">253dp</dimen>
 </resources>

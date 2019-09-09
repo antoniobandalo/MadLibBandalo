@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A4A4BF"
     tools:context=".Main2Activity">
 
 
@@ -14,6 +15,7 @@
         android:layout_marginStart="105dp"
         android:layout_marginTop="265dp"
         android:text="TextView"
+        android:textColor="#16235A"
         app:layout_constrainedHeight="false"
         app:layout_constrainedWidth="false"
         app:layout_constraintStart_toStartOf="parent"
